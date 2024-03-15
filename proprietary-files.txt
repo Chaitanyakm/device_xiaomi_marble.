@@ -109,6 +109,10 @@ vendor/etc/audio/sku_ukee/mixer_paths_overlay_static.xml
 vendor/etc/audio/sku_ukee/mixer_paths_ukee_mtp.xml
 vendor/etc/audio/sku_ukee/resourcemanager_ukee_mtp.xml
 vendor/etc/audio_cloud_control_white_list.xml
+vendor/etc/audio_policy_engine_configuration_mi.xml:vendor/etc/audio_policy_engine_configuration.xml
+vendor/etc/audio_policy_engine_default_stream_volumes.xml
+vendor/etc/audio_policy_engine_product_strategies.xml
+vendor/etc/audio_policy_engine_stream_volumes.xml
 vendor/etc/backend_conf.xml
 vendor/etc/card-defs.xml
 vendor/etc/kvh2xml.xml
