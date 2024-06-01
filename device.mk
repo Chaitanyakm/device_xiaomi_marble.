@@ -10,6 +10,9 @@ TARGET_NFC_SUPPORTED_SKUS := marble
 # Inherit from xiaomi sm8450-common
 $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 
+# Call the BCR setup
+$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/marble/marble-vendor.mk)
 
