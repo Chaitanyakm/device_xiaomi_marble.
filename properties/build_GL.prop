@@ -1,0 +1,6 @@
+# Global model
+bluetooth.device.default_name=POCO F5
+vendor.usb.product_string=POCO F5
+ro.product.odm.device=marble
+ro.product.odm.model=23049PCD8G
+ro.product.mod_device=marble_global

@@ -1,0 +1,6 @@
+# Chinese model
+bluetooth.device.default_name=Redmi Note 12 Turbo
+vendor.usb.product_string=Redmi Note 12 Turbo
+ro.product.odm.device=marble
+ro.product.odm.model=23049RAD8C
+ro.product.mod_device=marble
