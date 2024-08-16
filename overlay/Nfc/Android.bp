@@ -6,5 +6,5 @@
 
 runtime_resource_overlay {
     name: "NfcResMarble",
-    device_specific: true,
+    vendor: true,
 }
