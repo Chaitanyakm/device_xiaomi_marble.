@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2023 The LineageOS Project
+     Copyright (C) 2023-2024 The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -28,4 +28,8 @@
 
     <!-- the padding on the end of the statusbar -->
     <dimen name="status_bar_padding_end">0dp</dimen>
+    
+    <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
+         relies on this value will not be sized correctly. -->
+    <item format="float" name="pixel_pitch" type="dimen">64.37</item>
 </resources>
