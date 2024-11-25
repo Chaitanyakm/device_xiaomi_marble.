@@ -402,4 +402,30 @@
          rates are available from hardware composer. Only has an effect if the value is
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">120</integer>
+
+    <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
+         when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
+         where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
+         and Strength as defined in Authenticators.java -->
+    <string-array name="config_biometric_sensors" translatable="false" >
+        <!-- ID0:Fingerprint:Strong -->
+        <item>0:2:15</item>
+    </string-array>
+
+    <!-- Indicates whether device has a power button fingerprint sensor. -->
+    <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
+
+    <!-- An array of arrays of side fingerprint sensor properties relative to each display.
+         Note: this value is temporary and is expected to be queried directly
+         from the HAL in the future. -->
+    <array name="config_sfps_sensor_props" translatable="false">
+        <item>@array/config_sfps_sensor_props_0</item>
+    </array>
+
+    <array name="config_sfps_sensor_props_0" translatable="false">
+        <item></item>     <!-- displayId -->
+        <item>1080</item> <!-- sensorLocationX -->
+        <item>920</item>  <!-- sensorLocationY -->
+        <item>210</item>  <!-- sensorRadius -->
+    </array>
 </resources>
