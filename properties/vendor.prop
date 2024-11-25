@@ -3,3 +3,7 @@ vendor.display.idle_time=0
 
 # System properties
 ro.product.property_source_order=odm,vendor,product,system_ext,system
+
+# Fingerprint
+persist.vendor.fingerprint.type=side
+persist.vendor.fingerprint.sensor_modules=fpc,goodix
