@@ -67,22 +67,22 @@ void vendor_load_properties() {
     if (region == "IN") {
         device = "marblein";
         brand = "POCO";
-        description = "marblein-user 14 UKQ1.230804.001 V816.0.10.0.UMRINXM release-keys";
-        fingerprint = "POCO/marblein/marblein:14/UKQ1.230804.001/V816.0.10.0.UMRINXM:user/release-keys";
+        description = "marblein-user 14 UKQ1.230804.001 V816.0.13.0.UMRINXM release-keys";
+        fingerprint = "POCO/marblein/marblein:14/UKQ1.230804.001/V816.0.13.0.UMRINXM:user/release-keys";
         marketname = "POCO F5";
         model = "23049PCD8I";
     } else if (region == "GL") {
         device = "marble";
         brand = "POCO";
-        description = "marble_global-user 14 UKQ1.230804.001 V816.0.7.0.UMRMIXM release-keys";
-        fingerprint = "POCO/marble_global/marble:14/UKQ1.230804.001/V816.0.7.0.UMRMIXM:user/release-keys";
+        description = "marble_global-user 14 UKQ1.230804.001 V816.0.10.0.UMRMIXM release-keys";
+        fingerprint = "POCO/marble_global/marble:14/UKQ1.230804.001/V816.0.10.0.UMRMIXM:user/release-keys";
         marketname = "POCO F5";
         model = "23049PCD8G";
     } else if (region == "CN") {
         device = "marble";
         brand = "Redmi";
-        description = "marble-user 14 UKQ1.230804.001 V816.0.3.0.UMRCNXM release-keys";
-        fingerprint = "Redmi/marble/marble:14/UKQ1.230804.001/V816.0.3.0.UMRCNXM:user/release-keys";
+        description = "marble-user 14 UKQ1.230804.001 V816.0.9.0.UMRCNXM release-keys";
+        fingerprint = "Redmi/marble/marble:14/UKQ1.230804.001/V816.0.9.0.UMRCNXM:user/release-keys";
         marketname = "Redmi Note 12 Turbo";
         model = "23049RAD8C";
     }
